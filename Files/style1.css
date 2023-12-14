@@ -1,0 +1,54 @@
+    a {
+        color: black;
+    }
+    a:hover{
+        color: red;
+    }
+    a:active{
+        color: green;
+    }
+    a:visited{
+        color: yellow;
+    }
+    h1#intro {
+        text-align: center;
+    }
+
+    #box {
+        width: 200px;
+        height: 200px;
+        border: 2px solid black;
+        background-image: url(../JR\ 001.jpg);
+        background-position: center center;
+        background-size: cover;
+        border-radius: 0 50% 0 50%;
+        box-shadow: 6px 6px 5px inset gray;
+    }
+
+    #square {
+        width: 200px;
+        height: 200px;
+        border: 2px dashed black;
+        background-image: url(../JR\ 001.jpg);
+        background-position: center center;
+        background-size: cover;
+        box-shadow: 5px 5px 15px blue;
+    }
+
+    #floatImg {
+        width: 200px;
+        height: 200px;
+        border: 2px solid black;
+        background-image: url(../JR\ 001.jpg);
+        background-position: center center;
+        background-size: cover;
+        float: center;
+
+    }
+
+    .floating-img {
+        float: left;
+        margin: 10px;
+        border: 2px solid black;
+        box-shadow: 5px 5px 10px gray;
+    }
